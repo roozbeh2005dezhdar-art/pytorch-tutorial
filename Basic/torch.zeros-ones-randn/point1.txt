@@ -1,0 +1,9 @@
+torch.randn()
+
+Typical/expected range:
+
+About 68% of values will fall between -1 and 1
+
+About 95% of values will fall between -2 and 2
+
+About 99.7% of values will fall between -3 and 3
