@@ -1,0 +1,7 @@
+Bottom line:
+
+view() = Fast but fragile (data must already be in right order)
+
+reshape() = Slower but safe (rearranges data if needed)
+
+Always use reshape() unless you know what "contiguous" means and need the speed.
